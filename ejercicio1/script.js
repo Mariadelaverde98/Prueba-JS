@@ -26,8 +26,8 @@ function numeros() {
     let n2;
     let resultado = '';
     do{
-        n1 = parseInt(window.prompt("Inserta un numero: "));
-        n2 = parseInt(window.prompt("Inserta otro numero: "));
+        n1 = parseFloat(window.prompt("Inserta un numero: "));
+        n2 = parseFloat(window.prompt("Inserta otro numero: "));
         sonNumeros = !isNaN(n1) && !isNaN(n2);
         if(!sonNumeros) {
             alert("No has escrito dos numeros, vuelve a intentarlo.");
